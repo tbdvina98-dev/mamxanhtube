@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MamXanhTubeTV" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">#F6F8F5</item>
+        <item name="android:colorPrimary">#0F766E</item>
+        <item name="android:colorPrimaryDark">#0D5E58</item>
+        <item name="android:colorAccent">#0F766E</item>
+    </style>
+</resources>
