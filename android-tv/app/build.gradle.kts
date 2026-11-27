@@ -3,8 +3,9 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-val appUrl: String = (project.findProperty("APP_URL") as String?)
-    ?: "https://ais-pre-eed7re6rw5cjwjawomvbm5-279132310622.asia-northeast1.run.app/?tv=1"
+// Empty default = runs 100% standalone from bundled assets inside the APK (no external server needed).
+// Optional: pass -PAPP_URL=https://your-public-domain.com/?tv=1 to point to a custom hosted backend.
+val appUrl: String = (project.findProperty("APP_URL") as String?)?.trim().orEmpty()
 
 android {
     namespace = "com.mamxanhtube.tv"
@@ -14,8 +15,8 @@ android {
         applicationId = "com.mamxanhtube.tv"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
 
         buildConfigField("String", "APP_URL", "\"$appUrl\"")
     }

@@ -1,26 +1,15 @@
-# Mầm Xanh Tube — Phiên bản Android TV (APK)
+# Mầm Xanh Tube — APK Độc Lập cho Android TV & Điện Thoại Android
 
-Thư mục này chứa trọn bộ dự án Android TV (Kotlin + Leanback) bọc ứng dụng **Mầm Xanh Tube** với:
-- Biểu ngữ (Banner) hiển thị chuẩn trên màn hình chính Android TV / Google TV (`LEANBACK_LAUNCHER`).
-- Điều khiển hoàn toàn bằng remote TV (phím điều hướng D-Pad Lên/Xuống/Trái/Phải, OK/Enter, Quay lại).
-- Phát video YouTube toàn màn hình tăng tốc phần cứng (`youtube-nocookie.com`) và khóa chặt tên miền để bé không thoát ra trình duyệt ngoài.
+Dự án này đóng gói trọn bộ ứng dụng **Mầm Xanh Tube** (giao diện, danh sách kênh/playlist đã duyệt, bộ lọc an toàn, hẹn giờ 20-20-20 và kho ngoại tuyến) vào trực tiếp bên trong tệp `.apk`, chạy hoàn toàn độc lập mà **không cần máy chủ web bên ngoài**.
 
-## Cách 1: Build file `.apk` bằng Android Studio (nhanh nhất trên máy tính)
-1. Mở **Android Studio** -> chọn **Open** -> chọn thư mục `android-tv`.
-2. Đợi Gradle tự tải thư viện.
-3. (Tùy chọn) Đổi đường dẫn web app nếu bạn tự triển khai máy chủ riêng trong `app/build.gradle.kts` (`appUrl`).
-4. Chọn menu **Build → Build Bundle(s) / APK(s) → Build APK(s)**.
-5. File cài đặt nằm tại: `android-tv/app/build/outputs/apk/debug/app-debug.apk`.
+## Tính năng chính
+- **Chạy độc lập 100%**: Tự nạp giao diện đóng gói sẵn qua `WebViewAssetLoader` (HTTPS ảo nội bộ), không còn lỗi màn hình trắng hay lỗi đường link web.
+- **Tương thích cả Android TV & Điện thoại Android**: Tự động bật giao diện TV 10-foot + điều khiển remote D-Pad khi chạy trên Android TV/Google TV, và giao diện cảm ứng khi chạy trên điện thoại/máy tính bảng.
+- **Thêm kênh & playlist YouTube trực tiếp trên thiết bị**: Phụ huynh có thể thêm kênh hoặc playlist YouTube ngay trong Góc Phụ huynh trên TV/điện thoại.
+- **Khóa an toàn trẻ em**: Chỉ cho phép nguồn nội bộ của ứng dụng và trình phát nhúng `youtube-nocookie.com/embed/`, chặn toàn bộ liên kết ra ngoài.
 
-## Cách 2: Build file `.apk` tự động trên GitHub (không cần cài Android Studio)
-1. Đẩy mã nguồn lên kho GitHub của bạn (đã có sẵn file `.github/workflows/build-android-tv-apk.yml`).
-2. Vào tab **Actions** → chọn **Build Android TV APK** → bấm **Run workflow**.
-3. Sau ~2 phút, tải trực tiếp file `MamXanhTube-AndroidTV-APK` ở mục Artifacts.
-
-## Cài đặt file `.apk` lên Android TV / Google TV
-- **Qua USB**: Chép file `.apk` vào USB, cắm vào TV và cài qua ứng dụng quản lý tệp (bật "Cho phép cài ứng dụng không rõ nguồn gốc").
-- **Qua ADB (Wi-Fi)**:
-  ```bash
-  adb connect <IP_CUA_TV>:5555
-  adb install -r app-debug.apk
-  ```
+## Cách xuất tệp `.apk` trên GitHub (không cần cài phần mềm)
+1. Giải nén tệp `MamXanhTube-AndroidTV-Project.zip` tải từ **Góc Phụ huynh → Android TV (APK)**.
+2. Đẩy toàn bộ thư mục `android-tv` và `.github` lên kho GitHub của bạn (lưu ý ghi đè toàn bộ thư mục `android-tv` nếu cập nhật từ bản cũ).
+3. Mở tab **Actions** → chọn **Build Android TV APK** → bấm **Run workflow** (để trống ô `app_url` để đóng gói bản chạy độc lập).
+4. Sau ~2–3 phút, bấm vào lượt chạy có dấu tích xanh → tải mục **Artifacts → MamXanhTube-AndroidTV-APK** → giải nén lấy tệp `app-debug.apk` và cài lên Android TV hoặc điện thoại Android.

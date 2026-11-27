@@ -1,0 +1,1781 @@
+{
+  "channels": [
+    {
+      "id": "parent-playlist-PLW520wQA6bzc",
+      "name": "Playlist YouTube đã duyệt",
+      "description": "Nguồn video từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" do phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "accentColor": "#B45309",
+      "enabled": true,
+      "addedAt": "2026-11-27",
+      "lastSyncedAt": "2026-11-27T03:31:44.151Z"
+    },
+    {
+      "id": "parent-playlist-PLYuGDfsIvEQ0",
+      "name": "Playlist YouTube đã duyệt",
+      "description": "Nguồn video từ playlist \"TRỌN BỘ TOBOT CỨU TINH THÀNH PHỐ phần 3 | TOBOT TIẾNG VIỆT MỚI NHẤT 2026\" do phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "accentColor": "#0369A1",
+      "enabled": true,
+      "addedAt": "2026-11-27",
+      "lastSyncedAt": "2026-11-27T03:30:31.239Z"
+    },
+    {
+      "id": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "name": "MYKINGDOM",
+      "handle": "@mykingdom",
+      "description": "Kênh YouTube đã được phụ huynh phê duyệt (Tiếng Anh cho bé).",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "accentColor": "#0F766E",
+      "enabled": true,
+      "addedAt": "2026-11-27",
+      "lastSyncedAt": "2026-11-27T03:25:35.612Z"
+    },
+    {
+      "id": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "name": "Super Simple Songs",
+      "handle": "@SuperSimpleSongs",
+      "description": "Bài hát thiếu nhi vui nhộn, tiết tấu êm dịu giúp bé làm quen tiếng Anh và nhịp điệu.",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "accentColor": "#0F766E",
+      "enabled": true,
+      "addedAt": "2026-11-13",
+      "lastSyncedAt": "2026-11-27T03:04:30.140Z"
+    },
+    {
+      "id": "UCZYTClx2T1of7BRZ86-8fow",
+      "name": "SciShow Kids",
+      "handle": "@SciShowKids",
+      "description": "Giải đáp các câu hỏi vì sao về thiên nhiên, động vật và thí nghiệm khoa học an toàn.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "accentColor": "#0369A1",
+      "enabled": true,
+      "addedAt": "2026-11-15",
+      "lastSyncedAt": "2026-11-27T03:04:30.373Z"
+    },
+    {
+      "id": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "name": "Art for Kids Hub",
+      "handle": "@artforkidshub",
+      "description": "Hướng dẫn vẽ từng bước cùng gia đình, phát triển khả năng sáng tạo và sự khéo léo.",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "accentColor": "#B45309",
+      "enabled": true,
+      "addedAt": "2026-11-17",
+      "lastSyncedAt": "2026-11-27T03:04:30.482Z"
+    },
+    {
+      "id": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "name": "National Geographic Kids",
+      "handle": "@natgeokids",
+      "description": "Khám phá thế giới hoang dã, hành tinh xanh và những kỳ quan thiên nhiên gần gũi.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "accentColor": "#15803D",
+      "enabled": true,
+      "addedAt": "2026-11-19",
+      "lastSyncedAt": "2026-11-27T03:04:30.656Z"
+    },
+    {
+      "id": "UCsooa4yRKGN_zEE8iknghZA",
+      "name": "TED-Ed",
+      "handle": "@TEDEd",
+      "description": "Hoạt hình ngắn giải thích tư duy logic, lịch sử và các câu đố toán học hấp dẫn.",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "accentColor": "#4338CA",
+      "enabled": true,
+      "addedAt": "2026-11-21",
+      "lastSyncedAt": "2026-11-27T03:04:30.675Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "L3cdNhtg2ek",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Run Away Slushy Van?!🚐🍧💨 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:17",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L3cdNhtg2ek/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "_S_3JZSzdsM",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Sky Jump – GONE WRONG!🏍️🔥🏙️ | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_S_3JZSzdsM/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "jCRPFZPjlOc",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "“I Built the World’s Biggest SKI SLOPE!”🏂😲🏆 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jCRPFZPjlOc/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "xIyoBu9hKt4",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Dodgeball Against the Entire City?!🎶🔴🏙️ | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xIyoBu9hKt4/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "s8LPk2Klbag",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "We Discovered CURSED TREASURE!🧊🏴‍☠️💎 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "4:58",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s8LPk2Klbag/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "tjjIF0ptgQM",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "“I was in a REAL POLICE CHASE!”👮🚓🚨 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tjjIF0ptgQM/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "g7_X5F7ScIc",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Drone Challenge – ARE THOSE LASERS?!🦈😱⏳ | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g7_X5F7ScIc/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "2yDWecN-78g",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "We Survived a METEOR STORM?!🌌🧑‍🚀💎 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2yDWecN-78g/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "9tGhZvuFnI4",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "We Meet the Fans – NOFACE REVEAL! | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "4:19",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9tGhZvuFnI4/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "ZcUjfy7G10M",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Sky Challenge – WE FLIPPED A JET?!✈️🏍️🌑 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "4:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZcUjfy7G10M/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "501ZiElZF-Q",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "IMPOSSIBLE PRISON BREAK – Stunts Only!🚨👮‍♂️🦈 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/501ZiElZF-Q/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "GLa_keMgFyA",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Floating Cars?!🏎️🔧🎈 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GLa_keMgFyA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "I8tvB3RixIw",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Jungle VS. City 🦍🏙️🏆 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I8tvB3RixIw/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "MyXVOQ7Tlas",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Battle Royale on Planet X🪐🧑‍🚀🎮 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:23",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MyXVOQ7Tlas/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "1sB5-z-cXbk",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Tiny Robot Ruins Everything!🤖🪐👽 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1sB5-z-cXbk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "6PmT72-I-4o",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Can I Collect THE COLLECTOR?!👮‍♂️🚔🕵️ | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6PmT72-I-4o/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "X7XnhhST4Z8",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Prison Escape: ROBOT EDITION!🤖🔧🚨 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:20",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X7XnhhST4Z8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "W3kxEkSI8A0",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Delivering Pizzas with a ROLLERCOASTER!🍕🎢🤖 | #FullEpisode | LEGO® City No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:17",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W3kxEkSI8A0/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "4Rj6ATyyPhQ",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Police Want #Donuts 🍩 Bro What?! 🤯 | Season 3 Episode 1 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:26",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Rj6ATyyPhQ/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "ZJyQp85CJ68",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Dad, What Are You Doing?! 🚗💥 | Race #Fail | Season 3 Episode 2 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:23",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZJyQp85CJ68/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "M62Depmui3g",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "🛸 We Became #Space Cops?! 🤔🚀 | Season 3 Episode 3 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:23",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M62Depmui3g/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "I0bIZH-wyVU",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Highest Level #Villain vs My Grandma 🤯 | Season 3 Episode 4 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:23",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I0bIZH-wyVU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "AD34Vmf-Ymw",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Impossible Scrapyard #Challenge 💥 | Season 3 Episode 5 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:23",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AD34Vmf-Ymw/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "a6hL7pqXVOc",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "🐧 #Penguin Attack - Jason’s Dark Past 😮 | Season 3 Episode 6 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:23",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a6hL7pqXVOc/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "P7gT053ftfg",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "EVERY Vehicle Unlocked?! 🚗 🏍️ | Season 4 Episode 1 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:11",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P7gT053ftfg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "-9tS9w_Ctg8",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "WILD Evil Horse Chase! 🐴 💥 | Season 4 Episode 2 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:10",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-9tS9w_Ctg8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "2y4RqjIkOw8",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Same Second Delivery?! 🚚 📦 | Season 4 Episode 3 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2y4RqjIkOw8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "tSsUIh8L_tI",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "The UNSTOPPABLE Banana!? 🍌 😱 | Season 4 Episode 4 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:15",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tSsUIh8L_tI/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "OPNszBwoJBc",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "Five Frights Scariest Challenge! 🫣😨 | Season 4 Episode 5 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:14",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OPNszBwoJBc/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "c14cMpMX8JQ",
+      "channelId": "parent-playlist-PLW520wQA6bzc",
+      "channelName": "Playlist YouTube đã duyệt",
+      "title": "🏎️💨 Underground Racing Rivals! | Season 4 Episode 6 | Full Episode | LEGO City: No Limits",
+      "description": "Từ playlist \"LEGO City: No Limits! | Full Seasons | LEGO\" được phụ huynh phê duyệt.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "5:10",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c14cMpMX8JQ/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "DgKfCGY91nA",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL 11 21 10",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "2:05",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DgKfCGY91nA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "UadO6jvWdd0",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "TOBOT CITY HEROES 3 - Episode 04: A Lot to Worry About with the Mind Core | NEWEST VIETNAMESE TOBOT",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "14:18",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UadO6jvWdd0/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "0YrneBZCsqU",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL MINI PUPS - FIRE RESCUE | Episode 09 - Rescue Dogs Cartoon",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "2:04",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0YrneBZCsqU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "yuHqpfNlbUI",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "TOBOT HEROES: CITY HEROES 3 - Episode 03: Chain Reaction | NEWEST VIETNAMESE TOBOT",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "14:19",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yuHqpfNlbUI/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "TkYStS2Rup0",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL 11 21 08",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "2:00",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TkYStS2Rup0/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "l1pTqz6SLFE",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL 11 21 07",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "2:05",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l1pTqz6SLFE/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "e2WEhoS-6iU",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "TOBOT CỨU TINH THÀNH PHỐ 3 - Tập 02: Chiến Binh Thép | TOBOT TIẾNG VIỆT MỚI NHẤT",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "14:18",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2WEhoS-6iU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "oil61n74DGQ",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL 11 21 06",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "1:50",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oil61n74DGQ/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "QHgM5AmncAE",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "TOBOT CỨU TINH THÀNH PHỐ 3 - Tập 01: Virus Xác Sống Của Tiến Sĩ M | TOBOT TIẾNG VIỆT MỚI NHẤT",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "14:03",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QHgM5AmncAE/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "jEKm8M2nf7A",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL 11 21 05",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "2:01",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jEKm8M2nf7A/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "9nlC1evpqQg",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "INTRODUCING TOBOT: CITY SAVIORS SEASON 3 - NEWEST VIETNAMESE TOBOT",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "0:59",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9nlC1evpqQg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "y-2tc2BgRhk",
+      "channelId": "UCGeeH3wqD2AWB3NsyBwVrbw",
+      "channelName": "MYKINGDOM",
+      "title": "PAW PATROL 11 21 04",
+      "description": "Video đã duyệt từ kênh MYKINGDOM.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "2:14",
+      "publishedAt": "2026-11-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y-2tc2BgRhk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "nXvKDYRvTno",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "Scary stories to watch in the dark (if you dare…)",
+      "description": "Dig into a collection of 6 chilling tales of blood-thirsty creatures, a cursed talisman, vengeful ghosts, and more.\n\n--\n\nAt TED-Ed we pride ourselves on sparking curiosity and faci",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-10-27",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nXvKDYRvTno/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "a_4eFB8pPwI",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "5 sneaky ways stores get you to spend more",
+      "description": "Explore 5 tactics that retailers use to influence what you buy and what you’re willing to pay, and how to avoid being tricked.\n\n--\n\nYou’re about to buy some bargain bin headphones ",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-10-22",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a_4eFB8pPwI/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "OIEwaIhEOJI",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "All About Puppies and Dogs 🐶 | 2 Hour Full Episode Compilation | Nat Geo Kids",
+      "description": "Watch this pup-tastic full episode compilation on Nat Geo Kids YouTube!\n\n00:00 - How Dogs Got Their Shape\nWith over 400 breeds and countless variations, dogs are the most diverse m",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-21",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIEwaIhEOJI/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "CSr6FtE2nfA",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "AD | Meet the Scorpion Wall Crawler 🦂 | Nat Geo Kids",
+      "description": "AD | Did you know some scorpions glow under UV light? Now imagine one crawling up your wall! \n\n➡ Subscribe: https://www.youtube.com/@natgeokids\n\nAbout National Geographic:\nNat Geo ",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-20",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CSr6FtE2nfA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "Aq4YF9_Rt8Y",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "Chocolate Was a Drink Before It Was Candy! ☕🍫",
+      "description": "Before chocolate bars, there were chocolate drinks! ☕🍫 Learn a little cacao history while we draw this happy mug of hot chocolate with marshmallows. Would you add marshmallows or ",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-13",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Aq4YF9_Rt8Y/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "OhmPdBhK4Xs",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "1 Hour of Thanksgiving Drawing Fun! 🦃 Art Lessons for Kids",
+      "description": "Hey art friends! Join us for over an hour of Thanksgiving drawing fun with 10 lessons, including funny turkeys, apple pie, a Thankful Tree, and a Thanksgiving dinner. Grab your mar",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-13",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OhmPdBhK4Xs/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "yNsRbQln4Vg",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Is Eating Oysters Safe?",
+      "description": "Learnathon is a celebration of learning, of our free content here at SciShow and all of Complexly! We’re doing activities and videos and livestream Nov 9-20 at http://complexly.org",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-17",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yNsRbQln4Vg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "1ejtdt78rCo",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "The Chess Rating System That Predicts Everything",
+      "description": "You might have heard of the Elo rating if you’re into chess. Or women’s football. Or competitive Pokémon. Or even… fabric inspection. So how can a rating system for chess be so uni",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-16",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1ejtdt78rCo/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "uBweptmCYZg",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Our Listening Ears 👂 | Animal Sounds & Guessing Game for Kids! | Super Simple Songs",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nFollow along with this listening song to hear different animal sounds. Guess which type of animal makes the sound! 🎶 Le",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-09-10",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uBweptmCYZg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "iB2JoKjhOGE",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Happy Super Simple Day! #supersimple20thanniversary #supersimplesongs",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nWe are celebrating our 20th birthday today! Happy Super Simple Day, Super Simple Fam! Thank you for listening, watching,",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-09-08",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iB2JoKjhOGE/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "nBVuemyrMgE",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "Is salt the most important ingredient in history? - Carolyn Beans",
+      "description": "Trace the influence of salt throughout human history, and explore how this essential seasoning shaped our civilizations.\n\n--\n\nAs early as the 1st millennium CE, humans began harves",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-10",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nBVuemyrMgE/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "bw5tzcoEG88",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "How to effectively use visuals in your presentation",
+      "description": "Episode 11: Explore the key components of strong visuals, how to effectively use them to bolster your presentation, and mistakes to avoid.\n\n--\n\nThis is episode 11 of the animated s",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-05",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bw5tzcoEG88/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "8EtdC9Bjubk",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "Can you solve the Billy Bonka riddle? - Edwin F. Meyer",
+      "description": "You accidentally end up in the top secret lab of an eccentric candy factory. Can you win Billy Bonka's game and get set free?\n\n--\n\nYou’re on a tour of the eccentric Billy Bonka’s m",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-03",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8EtdC9Bjubk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "8RPK5KwYhgA",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "What if you didn’t brush your teeth for a year? - Justin Merritt",
+      "description": "Trace the impact that not brushing or flossing can have on your teeth, gums, microbiome, and overall health over time.\n\n--\n\nAt any given time, your mouth is maintaining a delicate ",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-10-29",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8RPK5KwYhgA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "2i4qeizJhe4",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "Baby mountain goats are the GOATs of climbing 🐐 | America's National Parks | Nat Geo Kids",
+      "description": "Watch the full episode here: https://youtu.be/lxrzT61_WU0\n\n➡ Subscribe: https://www.youtube.com/@natgeokids\n\nAbout National Geographic:\nNat Geo Kids is the ultimate destination for",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-23",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2i4qeizJhe4/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "Cjh80E5ihIk",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "Underwater Best Buds 🤿🐙 |  My Best Friend's an Animal Full Episode (4K) | Nat Geo Kids",
+      "description": "Watch this full episode of My Best Friend's an Animal, \"Underwater Besties\", on Nat Geo Kids YouTube! In this special episode, water-bound sharks and octopuses make buddies with hu",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-22",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cjh80E5ihIk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "2hK_hIZU-2o",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "AD | Build it, test it, crawl it! | | Nat Geo Kids",
+      "description": "AD Who says the fun has to follow a straight line? Get your Scorpion Wall Crawler moving and design your own tracks for a whole new way to play.\n\n➡ Subscribe: https://www.youtube.c",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-21",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2hK_hIZU-2o/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "cuBPUN5p_wM",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "The Surprising Secret Lives of Wild Turkeys! 🦃 Animal Card Quest | Nat Geo Kids",
+      "description": "Turkeys can fly?! Meet the wild turkey, a speedy survivor that sleeps in trees!\n\n🔥 Want more amazing animals? Check out these playlists!\n\n🐾 Amazing Animals: https://youtube.com/p",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-21",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cuBPUN5p_wM/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "dBgE0Pfnydg",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "Our new markers are in stock! #artforkidshub",
+      "description": "Video được duyệt từ kênh Art for Kids Hub.",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-18",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dBgE0Pfnydg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "J1EmFaMyNaA",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "Our NEW 80-Piece Marker Set Is Here! 🎉",
+      "description": "Hey, art friends! Olivia and I have some exciting news: our 80-piece alcohol marker set is now available! Join us for a quick sneak peek and a little fun together. 🎨\n\nHey parents ",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-18",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J1EmFaMyNaA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "sYtSb1z4yN8",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "Turn a Book Into a World! 📖 Sketchbook Challenge",
+      "description": "This week’s Sketchbook Challenge is to draw an open book and imagine a whole world growing out of its pages! Your scene could come from your favorite story or be something complete",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-15",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sYtSb1z4yN8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "6VVFgWYFqPI",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "Why Do Snowflakes Have Six Sides? ❄️",
+      "description": "Why do snowflakes so often have six sides? ❄️ Find out how tiny water molecules help shape ice crystals while we draw a cute snowflake and mitten! Not every snow crystal looks like",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-14",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6VVFgWYFqPI/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "9WCbrriN8sU",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Airplanes That Run on... Algae? #science",
+      "description": "Algae can do a lot, but soon we might be able to use algae to produce jet fuel.\n\nSavannah Geary (they/them): Host\nAngela Reed: Writer\nKeren Turton: Fact Checker\nMadelyn Leembruggen",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-23",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9WCbrriN8sU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "ZDRsHBGi8_8",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Blue Bears (And 4 Other Animals That Shouldn’t Be That Color)",
+      "description": "Check out JMP’s workshop here: https://www.jmp.com/scishow-dataviz \n\nMost animals use flashy color to signal to predators or to attract mates. But some animals---like pink armadill",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-20",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZDRsHBGi8_8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "ZDlcqG7Kuho",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Those Ape Sign Language Studies May Have Been Bogus",
+      "description": "Visit https://brilliant.org/scishow/ to get started with Brilliant’s tutor for free and get 20% off your annual premium subscription.\n\nYou may have heard of Koko, the famous gorill",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-19",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZDlcqG7Kuho/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "7pGCRPvKBXA",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Your Allergies Might Prevent Cancer",
+      "description": "For 15% off your first unique gift, visit https://www.uncommongoods.com/SCISHOW.\n\nWhether you have to pass on the peanut butter or sneeze all through the spring, anybody with aller",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-18",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7pGCRPvKBXA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "KKNHyhl6aXU",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Top 20 Halloween Songs 🎃 🍬| Kids Songs | Super Simple Songs",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nHave fun singing your favorite Halloween songs! Happy Halloween! 🎶 \nPARENTS AND TEACHERS: Thank you so much for watchin",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-10-15",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KKNHyhl6aXU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "Ne-ZcF58px4",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Halloween Night | 🍕 Dress Up As Food You Like for Halloween Night! | Super Simple Songs",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nWhat would YOU dress up as for Halloween? 🎃🍕🍟🧁🥤This Halloween, we’re skipping the spooky costumes and dressing up a",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-10-08",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ne-ZcF58px4/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "LuJe0ad1Ygk",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "When We Play Hockey 🏒 | Super Simple Songs & ‪@NHL Hockey Song for Kids",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nStormy, Carlton, Bouy, Thunderbug, Gritty, Fin, Victor E. Green and Youppi! all join Rhymington Square on the ice for th",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-09-24",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LuJe0ad1Ygk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "GzIObE7uR8Q",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Top 20 Anniversary Hit Songs 🎶 | \"20 Years of Super Simple\" now on Vinyl!",
+      "description": "Buy the album! ► https://shop.supersimple.com/products/20th-anniversary-vinyl-record\nEnjoy the top 20 Super Simple Songs that also appear on our anniversary vinyl album! \n\nPARENTS ",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-09-17",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GzIObE7uR8Q/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "1IVlILdETAw",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "What happens if you accidentally eat moldy food? - Josephine Wee",
+      "description": "Explore how mold spores form and grow, the difference between harmful and helpful molds, and which are dangerous to eat.\n\n--\n\nYou open your fridge to grab a snack and recoil at the",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-24",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1IVlILdETAw/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "fqL9dt6QHWg",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "5 of the most dangerous scientific discoveries - Shannon Odell",
+      "description": "Dig into the bold self-experimentation of 5 scientists, and how their discoveries led to scientific breakthroughs in medicine.\n\n--\n\nThe history of science is filled with stories of",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-19",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fqL9dt6QHWg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "dkocGur84i8",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "The three words that power every device you own - Lane Gunderman",
+      "description": "Learn more at https://brilliant.org/TedEd\n\n--\n\nIn the 1840s, George Boole created a branch of algebra that allowed mathematicians to input logical claims and mathematically determi",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-17",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dkocGur84i8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "aDblEBU41nA",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "Why is pepper such a popular spice? - Carolyn Beans",
+      "description": "Trace the history of pepper, and explore how this seasoning shaped empires to become one of the world's most popular spices.\n\n--\n\nThousands of years ago, people on the Malabar Coas",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-12",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aDblEBU41nA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "2aMGvs9Jpl4",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "Try these jokes at your thanksgiving dinner table! 🤣 | Just Joking LOL | Nat Geo Kids",
+      "description": "Watch the full horizontal video here: https://youtu.be/zQFt35TqlqU\n\n➡ Subscribe: https://www.youtube.com/@natgeokids\n\nAbout National Geographic:\nNat Geo Kids is the ultimate destin",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-26",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2aMGvs9Jpl4/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "QNnIcsgVwrM",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "Animals and Wildlife of North America | Jack Hanna's Passport Full Episode | Nat Geo Kids",
+      "description": "Watch this full episode of Jack Hanna's Passport, \"The World of North America\", on Nat Geo Kids YouTube! The Hannas explore North America’s coolest creatures, reeling in giant trou",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-26",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QNnIcsgVwrM/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "-mNiDwjxiGI",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "30 Seconds of Baby Turkeys 🦃 | Nat Geo Kids",
+      "description": "National Parks USA is available on Disney+:\nhttps://www.disneyplus.com/whats-on/entity-6166fc0f-b7b3-43fa-bdd6-b7c4c54cfc2a\n\n➡ Subscribe: https://www.youtube.com/@natgeokids\n\nAbout",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-25",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-mNiDwjxiGI/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "6Z4r4ryWvn8",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "Nat Geo Kids",
+      "title": "Mobula Rays Leap Through the Air! 🌊 | The Secret Life of Animals | Nat Geo Kids",
+      "description": "Check out an acrobatic fish called a mobula ray that likes to leap out of the sea in Baja, California. This episode of \"Moment of…\" will make you go, “Whee!”\n\nWatch the horizontal ",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-24",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6Z4r4ryWvn8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "BaFlk9rycFk",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "How To Draw A DJ Party Turkey Folding Surprise",
+      "description": "Hey art friends! Today, Teryn and I are learning how to draw a DJ party turkey folding surprise! It looks like a covered serving platter at first, but open the paper and there's a ",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-24",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BaFlk9rycFk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "Z04AYSn2iY4",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "Draw Your Own Thanksgiving Parade! | Sketchbook Challenge",
+      "description": "This week’s Sketchbook Challenge is to draw your own Thanksgiving parade! I drew a giant turkey balloon dressed up as a slice of pizza. What would your giant balloon look like? It ",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-23",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z04AYSn2iY4/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "7l5OrVT9UxA",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "How To Draw A Pizza Delivery Truck",
+      "description": "Hey art friends! Today, Teryn and I are learning how to draw a pizza delivery truck for our Turkey! Grab your markers and let's draw! 🍕🚚\n\nPersonalization ideas: Give your truck a",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-20",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7l5OrVT9UxA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "ADYpYw8nPYU",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "How To Draw A Pizza Delivery Turkey",
+      "description": "Hey art friends! Today, Hadley and I are learning how to draw a turkey disguised as a pizza delivery guy! Grab your markers and paper, and let's draw a turkey carrying a big stack ",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-19",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ADYpYw8nPYU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "VGU3rbyWFTQ",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Scientists Found Something Impossible at the Trinity Test Site.",
+      "description": "Quasicrystals are infinite structures with well-defined symmetry and a pattern that never ever repeats---a structure that many thought could never exist. But in 2021, physicists di",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-26",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VGU3rbyWFTQ/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "yuvAjI2B8zo",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "Does The Uberman Sleep Schedule Really Work?",
+      "description": "Visit https://brilliant.org/scishow/ to get started with Brilliant’s tutor for free and get 20% off your annual premium subscription.\n\nFrom Da Vinci to Dalí, several men throughout",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-25",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yuvAjI2B8zo/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "AzF_vkhkBrU",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "The Sperm Whale Lubricant Science Still Can’t Beat",
+      "description": "Go to https://buyraycon.com/scishowOPEN to get up to 50% off! Thanks to Raycon for sponsoring!\n\nIf you were alive in the 1970s, there's a good chance you took a ride in a vehicle p",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-24",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AzF_vkhkBrU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "1qrGwX9kQoQ",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow",
+      "title": "The Thing That Made Absinthe Famous Is Not True",
+      "description": "Absinthe was banned in the US and Europe for around 100 years for causing hallucinations. We use science to investigate: Does absinthe make you see things, or was the Green Fairy f",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-23",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1qrGwX9kQoQ/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "-3AsLwDYFKs",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Top 20 Kids Christmas Songs | 🎁🎄🎅 Happy Holidays from Super Simple Songs!",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nCelebrate the holiday season with our top 20 most popular Christmas songs for kids and families! Featuring classics like",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-26",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-3AsLwDYFKs/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "8oOhdAVEDfA",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "🔴 Celebrate the Holidays With Super Simple Live 🎄 | Best Christmas Kids Songs | Super Simple Songs",
+      "description": "Get the Super Simple App!  ► http://bit.ly/TheSuperSimpleApp\n\nPARENTS AND TEACHERS: Thank you so much for watching Super Simple Songs with your families and/or students. Here are s",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-25",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8oOhdAVEDfA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "16LdAdVN0q0",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "We Are Elves | @NoodleAndPals make toys in Santa's workshop! | Christmas Song | Super Simple Songs",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp\nNoodle & Pals are working hard to make toys for Christmas Day! 🎶 We are elves making toys, for every girl and every boy",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-19",
+      "thumbnailUrl": "https://i.ytimg.com/vi/16LdAdVN0q0/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "PIWYVP6hBEM",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs - Kids Songs",
+      "title": "Scrubbity Rubbity Doo 🧼 | Wash Your Hands & Face | Fun Kids Hygiene Song | Super Simple Songs",
+      "description": "Get the Super Simple App! ► http://bit.ly/TheSuperSimpleApp \nPerfect for preschoolers learning hygiene! Singing a fun song and washing up together can be lots of fun! 🎶 Scrub scru",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "YouTube",
+      "publishedAt": "2026-11-05",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PIWYVP6hBEM/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "yCjJyiqpAuU",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs",
+      "title": "Twinkle Twinkle Little Star — Bài hát ru sao đêm",
+      "description": "Giai điệu êm ái giúp bé thư giãn và làm quen từ vựng tiếng Anh cơ bản.",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "2:34",
+      "publishedAt": "2026-10-28",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yCjJyiqpAuU/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "tVlcKp3bWH8",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs",
+      "title": "Hello! — Tập chào hỏi buổi sáng vui vẻ",
+      "description": "Học cách chào hỏi và biểu đạt cảm xúc tích cực mỗi sáng cùng các nhân vật đáng yêu.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "1:18",
+      "publishedAt": "2026-11-01",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tVlcKp3bWH8/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "75p-N9YKqNo",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs",
+      "title": "The Alphabet Song — Hát thuộc bảng chữ cái",
+      "description": "Nhịp điệu chậm rãi, rõ chữ giúp bé nhận diện bảng chữ cái tiếng Anh tự nhiên.",
+      "category": "Tiếng Anh cho bé",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "2:09",
+      "publishedAt": "2026-11-06",
+      "thumbnailUrl": "https://i.ytimg.com/vi/75p-N9YKqNo/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "frN3nvhIHUk",
+      "channelId": "UCLsooMJoIpl_7ux2jvdPB-Q",
+      "channelName": "Super Simple Songs",
+      "title": "Do You Like Broccoli Ice Cream? — Từ vựng món ăn vui nhộn",
+      "description": "Khám phá tên các loại rau củ và món ăn lành mạnh qua giai điệu vui tai.",
+      "category": "Âm nhạc & Vần điệu",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "durationLabel": "2:25",
+      "publishedAt": "2026-11-09",
+      "thumbnailUrl": "https://i.ytimg.com/vi/frN3nvhIHUk/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "R9sn7HZM7uY",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow Kids",
+      "title": "Why Do We Have Seasons? — Vì sao Trái Đất có bốn mùa?",
+      "description": "Giải thích trực quan về trục nghiêng của Trái Đất tạo nên Xuân, Hạ, Thu, Đông.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "4:09",
+      "publishedAt": "2026-11-12",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R9sn7HZM7uY/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "Z1LrevNG_JA",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow Kids",
+      "title": "Make a Rainbow! — Tự tạo cầu vồng ánh sáng tại nhà",
+      "description": "Thí nghiệm khoa học đơn giản về ánh sáng mặt trời và lăng kính nước.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "3:54",
+      "publishedAt": "2026-11-16",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z1LrevNG_JA/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "M-8iSjpu6gg",
+      "channelId": "UCZYTClx2T1of7BRZ86-8fow",
+      "channelName": "SciShow Kids",
+      "title": "How Do Airplanes Fly? — Bí mật giúp máy bay bay trên bầu trời",
+      "description": "Tìm hiểu lực nâng của đôi cánh và không khí qua minh họa sinh động cho trẻ nhỏ.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "4:38",
+      "publishedAt": "2026-11-18",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M-8iSjpu6gg/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "b_n3iW2_94Q",
+      "channelId": "UC5XMF3Inoi8R9nSI8ChOsdQ",
+      "channelName": "Art for Kids Hub",
+      "title": "How To Draw A Cute Owl — Tập vẽ bạn Cú Mèo đáng yêu",
+      "description": "Hướng dẫn vẽ từng nét đơn giản để bé tự tay hoàn thành bức tranh bạn Cú Mèo.",
+      "category": "Sáng tạo & Mỹ thuật",
+      "ageGroups": [
+        "3-5",
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "6:15",
+      "publishedAt": "2026-11-20",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b_n3iW2_94Q/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "eJ5vW-jF3fY",
+      "channelId": "UCXVCgDuD_QCkI7gTKU7-tpg",
+      "channelName": "National Geographic Kids",
+      "title": "Amazing Animals — Những người bạn kỳ diệu trong rừng xanh",
+      "description": "Quan sát tập tính thú vị của các loài động vật hoang dã trên khắp thế giới.",
+      "category": "Khoa học & Tự nhiên",
+      "ageGroups": [
+        "6-8",
+        "9-12"
+      ],
+      "durationLabel": "3:12",
+      "publishedAt": "2026-11-22",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eJ5vW-jF3fY/hqdefault.jpg",
+      "source": "youtube"
+    },
+    {
+      "id": "N-7tcTIrers",
+      "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+      "channelName": "TED-Ed",
+      "title": "Can You Solve The Bridge Riddle? — Câu đố qua cầu tư duy logic",
+      "description": "Thử thách tư duy sắp xếp thời gian và lập luận toán học qua phim hoạt hình.",
+      "category": "Toán học & Tư duy",
+      "ageGroups": [
+        "9-12"
+      ],
+      "durationLabel": "4:42",
+      "publishedAt": "2026-11-23",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N-7tcTIrers/hqdefault.jpg",
+      "source": "youtube"
+    }
+  ],
+  "settings": {
+    "childName": "Bé Mầm Xanh",
+    "activeAgeGroup": "6-8",
+    "blockedKeywords": [
+      "kinh dị",
+      "hù dọa",
+      "prank",
+      "bạo lực",
+      "đập hộp"
+    ],
+    "strictWhitelistOnly": true,
+    "zeroTrackingMode": true,
+    "eyeComfortWarmFilter": false,
+    "dailyLimitMinutes": 45,
+    "bonusMinutesToday": 0,
+    "eyeRestIntervalMinutes": 15,
+    "eyeRestDurationSeconds": 20,
+    "bedtimeEnabled": true,
+    "bedtimeStartHour": 21,
+    "bedtimeEndHour": 6,
+    "reportSchedule": "weekly",
+    "reportEmail": "",
+    "enableInAppNotifications": true,
+    "enableEmailReports": true
+  }
+}

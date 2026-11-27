@@ -1,36 +1,86 @@
 package com.mamxanhtube.tv
 
 import android.annotation.SuppressLint
+import android.app.UiModeManager
+import android.content.pm.PackageManager
+import android.content.res.Configuration
 import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
+import android.view.Gravity
 import android.view.KeyEvent
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
+import android.webkit.JavascriptInterface
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceError
 import android.webkit.WebResourceRequest
+import android.webkit.WebResourceResponse
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.Button
 import android.widget.FrameLayout
+import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import androidx.webkit.WebViewAssetLoader
+import org.json.JSONObject
+import java.io.ByteArrayOutputStream
+import java.net.HttpURLConnection
+import java.net.URL
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var rootContainer: FrameLayout
     private lateinit var webView: WebView
+    private lateinit var errorOverlay: LinearLayout
+    private lateinit var errorMessageView: TextView
     private var customFullscreenView: View? = null
     private var customViewCallback: WebChromeClient.CustomViewCallback? = null
     private var lastBackPressedMs: Long = 0L
 
-    private val allowedHost: String by lazy {
-        Uri.parse(BuildConfig.APP_URL).host.orEmpty().lowercase()
+    private val localVirtualHost = "appassets.androidplatform.net"
+
+    private val assetLoader: WebViewAssetLoader by lazy {
+        WebViewAssetLoader.Builder()
+            .setDomain(localVirtualHost)
+            .addPathHandler("/", WebViewAssetLoader.AssetsPathHandler(this))
+            .build()
+    }
+
+    private val customRemoteUrl: String by lazy {
+        BuildConfig.APP_URL.trim()
+    }
+
+    private val allowedRemoteHost: String by lazy {
+        if (customRemoteUrl.isNotEmpty()) {
+            Uri.parse(customRemoteUrl).host.orEmpty().lowercase()
+        } else {
+            ""
+        }
+    }
+
+    private fun isAndroidTvDevice(): Boolean {
+        val uiModeManager = getSystemService(UI_MODE_SERVICE) as? UiModeManager
+        return uiModeManager?.currentModeType == Configuration.UI_MODE_TYPE_TELEVISION ||
+            packageManager.hasSystemFeature(PackageManager.FEATURE_LEANBACK)
+    }
+
+    private fun resolveStartUrl(): String {
+        if (customRemoteUrl.startsWith("https://")) {
+            return customRemoteUrl
+        }
+        return if (isAndroidTvDevice()) {
+            "https://$localVirtualHost/index.html?tv=1"
+        } else {
+            "https://$localVirtualHost/index.html"
+        }
     }
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -38,7 +88,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-        enableImmersiveTvMode()
+        if (isAndroidTvDevice()) {
+            enableImmersiveTvMode()
+        }
 
         rootContainer = FrameLayout(this).apply {
             setBackgroundColor(Color.parseColor("#F6F8F5"))
@@ -70,10 +122,27 @@ class MainActivity : AppCompatActivity() {
                 allowContentAccess = false
                 setSupportMultipleWindows(false)
                 javaScriptCanOpenWindowsAutomatically = false
-                userAgentString = "$userAgentString MamXanhTubeAndroidTV/1.0"
+                val deviceTag = if (isAndroidTvDevice()) "MamXanhTubeAndroidTV/1.1" else "MamXanhTubeAndroid/1.1"
+                userAgentString = "$userAgentString $deviceTag"
             }
 
+            addJavascriptInterface(NativeYouTubeBridge(isAndroidTvDevice()), "MamXanhNative")
+
             webViewClient = object : WebViewClient() {
+                override fun shouldInterceptRequest(
+                    view: WebView?,
+                    request: WebResourceRequest?
+                ): WebResourceResponse? {
+                    val uri = request?.url ?: return null
+                    if (uri.host?.lowercase() == localVirtualHost) {
+                        val response = assetLoader.shouldInterceptRequest(uri)
+                        if (response != null) {
+                            return response
+                        }
+                    }
+                    return super.shouldInterceptRequest(view, request)
+                }
+
                 override fun shouldOverrideUrlLoading(
                     view: WebView?,
                     request: WebResourceRequest?
@@ -83,13 +152,19 @@ class MainActivity : AppCompatActivity() {
                     if (scheme != "https") return true
 
                     val host = uri.host?.lowercase().orEmpty()
-                    val isAppOrigin = host == allowedHost
+                    val isBundledLocal = host == localVirtualHost
+                    val isConfiguredRemote = allowedRemoteHost.isNotEmpty() && host == allowedRemoteHost
                     val isYouTubeEmbed =
                         (host == "www.youtube-nocookie.com" || host == "www.youtube.com") &&
                             uri.path.orEmpty().startsWith("/embed/")
 
-                    // Allow only the Mầm Xanh Tube origin and privacy-enhanced YouTube embeds
-                    return !(isAppOrigin || isYouTubeEmbed)
+                    // Strictly allow only bundled app origin, optional configured host, and YouTube embeds
+                    return !(isBundledLocal || isConfiguredRemote || isYouTubeEmbed)
+                }
+
+                override fun onPageFinished(view: WebView?, url: String?) {
+                    super.onPageFinished(view, url)
+                    errorOverlay.visibility = View.GONE
                 }
 
                 override fun onReceivedError(
@@ -98,11 +173,10 @@ class MainActivity : AppCompatActivity() {
                     error: WebResourceError?
                 ) {
                     if (request?.isForMainFrame == true) {
-                        Toast.makeText(
-                            this@MainActivity,
-                            "Không có kết nối mạng. Vui lòng kiểm tra Wi-Fi của TV.",
-                            Toast.LENGTH_LONG
-                        ).show()
+                        val reason = error?.description?.toString().orEmpty()
+                        errorMessageView.text =
+                            "Không thể mở trang ứng dụng.\nKiểm tra kết nối Wi-Fi rồi bấm Thử lại.\n($reason)"
+                        errorOverlay.visibility = View.VISIBLE
                     }
                 }
             }
@@ -134,20 +208,154 @@ class MainActivity : AppCompatActivity() {
                     customViewCallback = null
                     webView.visibility = View.VISIBLE
                     webView.requestFocus()
-                    enableImmersiveTvMode()
+                    if (isAndroidTvDevice()) {
+                        enableImmersiveTvMode()
+                    }
                 }
             }
         }
 
+        errorMessageView = TextView(this).apply {
+            text = "Đang gặp sự cố khi tải ứng dụng."
+            textSize = 16f
+            setTextColor(Color.parseColor("#17231E"))
+            gravity = Gravity.CENTER
+            setPadding(48, 24, 48, 32)
+        }
+
+        val retryButton = Button(this).apply {
+            text = "Thử tải lại"
+            setBackgroundColor(Color.parseColor("#0F766E"))
+            setTextColor(Color.WHITE)
+            setPadding(48, 24, 48, 24)
+            setOnClickListener {
+                errorOverlay.visibility = View.GONE
+                webView.loadUrl(resolveStartUrl())
+            }
+        }
+
+        errorOverlay = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            gravity = Gravity.CENTER
+            setBackgroundColor(Color.parseColor("#F6F8F5"))
+            visibility = View.GONE
+            layoutParams = FrameLayout.LayoutParams(
+                FrameLayout.LayoutParams.MATCH_PARENT,
+                FrameLayout.LayoutParams.MATCH_PARENT
+            )
+            addView(errorMessageView)
+            addView(retryButton)
+        }
+
         rootContainer.addView(webView)
+        rootContainer.addView(errorOverlay)
         setContentView(rootContainer)
 
         if (savedInstanceState != null) {
             webView.restoreState(savedInstanceState)
         } else {
-            webView.loadUrl(BuildConfig.APP_URL)
+            webView.loadUrl(resolveStartUrl())
         }
         webView.requestFocus()
+    }
+
+    /**
+     * Hardened native YouTube fetcher strictly restricted to official HTTPS YouTube hosts.
+     * Allows Parent Portal inside the standalone APK to resolve channels, playlists, and videos
+     * directly from the family's device without needing an external backend server.
+     */
+    private class NativeYouTubeBridge(private val tvDevice: Boolean) {
+        private val allowedYouTubeHosts = setOf(
+            "www.youtube.com",
+            "youtube.com",
+            "m.youtube.com",
+            "youtu.be"
+        )
+
+        @JavascriptInterface
+        fun isTvDevice(): Boolean = tvDevice
+
+        @JavascriptInterface
+        fun fetchYouTube(rawUrl: String): String {
+            val result = JSONObject()
+            try {
+                var currentUrl = rawUrl.trim()
+                var hops = 0
+                while (hops < 3) {
+                    val uri = Uri.parse(currentUrl)
+                    val scheme = uri.scheme?.lowercase().orEmpty()
+                    val host = uri.host?.lowercase().orEmpty()
+                    if (scheme != "https" || !allowedYouTubeHosts.contains(host)) {
+                        result.put("ok", false)
+                        result.put("error", "Chỉ cho phép kết nối HTTPS tới YouTube.")
+                        return result.toString()
+                    }
+
+                    val conn = (URL(currentUrl).openConnection() as HttpURLConnection).apply {
+                        requestMethod = "GET"
+                        connectTimeout = 8000
+                        readTimeout = 8000
+                        instanceFollowRedirects = false
+                        setRequestProperty(
+                            "User-Agent",
+                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                        )
+                        setRequestProperty("Accept-Language", "vi-VN,vi;q=0.9,en-US;q=0.8")
+                        setRequestProperty(
+                            "Cookie",
+                            "SOCS=CAISNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwODI5LjA3X3AwGgJlbiADGgYIgJnPpwY"
+                        )
+                    }
+
+                    try {
+                        val code = conn.responseCode
+                        if (code in 301..308) {
+                            val location = conn.getHeaderField("Location").orEmpty()
+                            if (location.isBlank()) {
+                                result.put("ok", false)
+                                result.put("status", code)
+                                result.put("error", "Chuyển hướng không hợp lệ.")
+                                return result.toString()
+                            }
+                            currentUrl = URL(URL(currentUrl), location).toString()
+                            hops++
+                            continue
+                        }
+
+                        val stream = if (code in 200..299) conn.inputStream else conn.errorStream
+                        val out = ByteArrayOutputStream()
+                        val buf = ByteArray(8192)
+                        var total = 0
+                        val maxBytes = 3 * 1024 * 1024
+                        if (stream != null) {
+                            stream.use { input ->
+                                while (total < maxBytes) {
+                                    val read = input.read(buf)
+                                    if (read <= 0) break
+                                    val allowed = minOf(read, maxBytes - total)
+                                    out.write(buf, 0, allowed)
+                                    total += allowed
+                                }
+                            }
+                        }
+
+                        val body = out.toString(Charsets.UTF_8.name())
+                        result.put("ok", code in 200..299)
+                        result.put("status", code)
+                        result.put("body", body)
+                        return result.toString()
+                    } finally {
+                        conn.disconnect()
+                    }
+                }
+                result.put("ok", false)
+                result.put("error", "Quá nhiều lần chuyển hướng từ YouTube.")
+            } catch (e: Exception) {
+                result.put("ok", false)
+                result.put("error", "Không thể kết nối tới YouTube. Hãy kiểm tra Wi-Fi.")
+            }
+            return result.toString()
+        }
     }
 
     override fun dispatchKeyEvent(event: KeyEvent): Boolean {
@@ -170,8 +378,10 @@ class MainActivity : AppCompatActivity() {
                     return true
                 }
                 KeyEvent.KEYCODE_DPAD_CENTER, KeyEvent.KEYCODE_ENTER -> {
-                    dispatchRemoteKey("Enter")
-                    return true
+                    if (isAndroidTvDevice()) {
+                        dispatchRemoteKey("Enter")
+                        return true
+                    }
                 }
                 KeyEvent.KEYCODE_BACK -> {
                     if (customFullscreenView != null) {
@@ -227,8 +437,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onPause() {
-        webView.onPause()
         super.onPause()
+        webView.onPause()
     }
 
     override fun onDestroy() {
