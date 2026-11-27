@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       app_url:
-        description: 'URL ứng dụng Mầm Xanh Tube (thêm ?tv=1 ở cuối)'
+        description: 'Để trống để đóng gói bản chạy độc lập (khuyên dùng).'
         required: false
-        default: 'https://ais-pre-eed7re6rw5cjwjawomvbm5-279132310622.asia-northeast1.run.app/?tv=1'
+        default: ''
   push:
     paths:
       - 'android-tv/**'
@@ -29,10 +29,10 @@ jobs:
         with:
           gradle-version: '8.11.1'
 
-      - name: Build Android TV Debug APK
+      - name: Build Standalone Android TV & Phone APK
         working-directory: android-tv
         run: |
-          gradle assembleDebug -PAPP_URL="${{ inputs.app_url || 'https://ais-pre-eed7re6rw5cjwjawomvbm5-279132310622.asia-northeast1.run.app/?tv=1' }}"
+          gradle assembleDebug -PAPP_URL="${{ inputs.app_url }}"
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
